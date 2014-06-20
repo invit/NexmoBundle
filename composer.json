@@ -1,0 +1,20 @@
+{
+    "name": "invit/nexmo-bundle",
+    "description": "Mapper for the nexmo libraries",
+    "authors": [
+        {
+            "name": "Toni Rudolf",
+            "email": "toni.rudolf@weekend4two.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">= 5.3",
+        "civocr/nexmo-php-lib": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Invit\\DataAnalysisBundle\\": "./"
+        }
+    }
+}
